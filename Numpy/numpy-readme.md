@@ -179,3 +179,7 @@ list = [[1,2],[3,4]]
         </td>
     </tr>
 </table>
+
+<h3>When to use what?</h3>
+<li>Use python list for General programming.</li> 
+<li>Use NumPy for Numerical Computing/ Ml/ Data Science</li>
