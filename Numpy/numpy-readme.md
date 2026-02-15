@@ -57,3 +57,39 @@ conda install numpy
 import numpy as np
 print(np._version_)
 </pre>
+
+<h2>NumPy Array vs Python list</h2>
+<h3><li>Performance (speed) :</li></h3>
+<table>
+    <tr>
+        <th>NumPy arrays</th>
+        <th>Python lists</th>
+    </tr>
+    <tr>
+        <td>Much faster</td>
+        <td>Slower for math operations</td>
+    </tr>
+    <tr>
+        <td>Optimized for numerical computation</td>
+        <td>Not optimized for large numerical data</td>
+    </tr>
+    <tr>
+        <td>Implemented in C internally</td>
+    </tr>
+    <tr>
+        <td>Ex:
+            <pre>
+import numpy as np
+arr = np.array([1,2,3,4])
+print(arr*2)
+            </pre>
+        </td>
+        <td>Ex:
+            <pre>
+list = [1,2,3,4]
+result = [x * r for x in list]
+print(result)
+            </pre>
+        </td>
+    </tr>
+</table>
