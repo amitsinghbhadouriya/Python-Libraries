@@ -36,3 +36,24 @@ print(arr*2)
     <li>PyTorch</li>
 </ul>
 <p>Without NumPy, most modern data science and machine learning workflows in python wouldn't exist.</p>
+
+<h2>Installation of NumPy</h2>
+<h3><li>Standard Installation - (Most Common) :</li></h3>
+<p>Open command prompt/ terminal and run.<p>
+<pre>
+pip install numpy
+</pre>
+<h3><li>For Anaconda - (For data science) :</li></h3>
+<p>NumPy usually comes preinstalled, but if needed</p>
+<pre>
+conda install numpy
+</pre>
+<h3><li>For Jupyter Notebook :</li></h3>
+<pre>
+!pip install numpy
+</pre>
+<h3><li>Verify installation :</li></h3>
+<pre>
+import numpy as np
+print(np._version_)
+</pre>
