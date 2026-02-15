@@ -93,3 +93,34 @@ print(result)
         </td>
     </tr>
 </table>
+<h3><li>Memory Efficiency :</li></h3>
+<table>
+    <tr>
+        <th>NumPy arrays</th>
+        <th>Python lists</th>
+    </tr>
+    <tr>
+        <td>Store elements in contiguous memory</td>
+        <td>Store references to objects</td>
+    </tr>
+    <tr>
+        <td>Same data type -> less memory</td>
+        <td>More memory usage</td>
+    </tr>
+    <tr>
+        <td>Ex:- 
+            <pre>
+[1 2 3]
+            </pre>
+        </td>
+        <td>Ex:-
+            <pre>
+[1,2,3]
+            </pre>
+        </td>
+    </tr>
+    <tr>
+        <td>Stores raw values -> efficient</td>
+        <td>Stores pointers -> More overhead</td>
+    </tr>
+</table>
