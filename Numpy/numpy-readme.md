@@ -160,6 +160,12 @@ print(list)
         <th>Python lists</th>
     </tr>
     <tr>
+        <td>-> Matrix operations<br>
+        -> Linear algebra<br>
+        -> Broad casting</td>
+        <td>-> Limited operations</td>
+    </tr>
+    <tr>
         <td>Built for this-
             <pre>
 arr = np.array([[1,2],
@@ -171,11 +177,5 @@ arr = np.array([[1,2],
 list = [[1,2],[3,4]]
             </pre>
         </td>
-    </tr>
-    <tr>
-        <td>-> Matrix operations<br>
-        -> Linear algebra<br>
-        -> Broad casting</td>
-        <td>-> Limited operations</td>
     </tr>
 </table>
