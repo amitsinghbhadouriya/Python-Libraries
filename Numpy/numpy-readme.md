@@ -17,3 +17,22 @@ import numpy as np
 arr = np.array([1,2,3,4,5])
 print(arr*2)
 </pre>
+
+<h2>Who created and when?</h2>
+<p>NumPy was created by <u>Travis Oliphant</u> in 2005.</p>
+<p>Combining features of libraries like:</p>
+<ul>
+    <li>Numeric</li>
+    <li>Numarray</li>
+</ul>
+
+<h2>Why Important?</h2>
+<p>NumPy is foundational for many other libraries:</p>
+<ul>
+    <li>Pandas</li>
+    <li>SciPy</li>
+    <li>MatPlotLib</li>
+    <li>Tensorflow</li>
+    <li>PyTorch</li>
+</ul>
+<p>Without NumPy, most modern data science and machine learning workflows in python wouldn't exist.</p>
