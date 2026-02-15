@@ -153,3 +153,29 @@ print(list)
         </td>
     </tr>
 </table>
+<h3><li>Multi-Dimensional Support :</li></h3>
+<table>
+    <tr>
+        <th>NumPy array</th>
+        <th>Python lists</th>
+    </tr>
+    <tr>
+        <td>Built for this-
+            <pre>
+arr = np.array([[1,2],
+                [3,4]])
+            </pre>
+        </td>
+        <td>Possible by messy-
+            <pre>
+list = [[1,2],[3,4]]
+            </pre>
+        </td>
+    </tr>
+    <tr>
+        <td>-> Matrix operations<br>
+        -> Linear algebra<br>
+        -> Broad casting</td>
+        <td>-> Limited operations</td>
+    </tr>
+</table>
