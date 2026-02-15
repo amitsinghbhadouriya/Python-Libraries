@@ -108,6 +108,10 @@ print(result)
         <td>More memory usage</td>
     </tr>
     <tr>
+        <td>Stores raw values -> efficient</td>
+        <td>Stores pointers -> More overhead</td>
+    </tr>
+    <tr>
         <td>Ex:- 
             <pre>
 [1 2 3]
@@ -118,10 +122,6 @@ print(result)
 [1,2,3]
             </pre>
         </td>
-    </tr>
-    <tr>
-        <td>Stores raw values -> efficient</td>
-        <td>Stores pointers -> More overhead</td>
     </tr>
 </table>
 <h3><li>Data type Handling :</li></h3>
