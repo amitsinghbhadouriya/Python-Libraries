@@ -124,3 +124,32 @@ print(result)
         <td>Stores pointers -> More overhead</td>
     </tr>
 </table>
+<h3><li>Data type Handling :</li></h3>
+<table>
+    <tr>
+        <th>NumPy arrays</th>
+        <th>Python lists</th>
+    </tr>
+    <tr>
+        <td>Same data type only</td>
+        <td>Can store mixed types</td>
+    </tr>
+    <tr>
+        <td>Ensures speed and efficiency</td>
+        <td>Flexible but inefficient for math</td>
+    </tr>
+    <tr>
+        <td>Ex:-
+            <pre>
+arr = np.array([1,2,3])
+print(arr.dtype)
+            </pre>
+        </td>
+        <td>Ex:-
+            <pre>
+list = [1,'hello',3.3]
+print(list)
+            </pre>
+        </td>
+    </tr>
+</table>
