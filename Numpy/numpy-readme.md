@@ -183,3 +183,39 @@ list = [[1,2],[3,4]]
 <h3>When to use what?</h3>
 <li>Use python list for General programming.</li> 
 <li>Use NumPy for Numerical Computing/ Ml/ Data Science</li>
+
+<h2>Creating Arrays</h2>
+<p>An array is a collection of elements of the same data type stored in contiguous memory locations.</p>
+<ul>
+    <li>Array can by one-dimensional, two-dimensional, or multi-dimensional</li>
+    <li>NumPy arrays are more efficient than list.</li>
+</ul>
+<p>We can convert a list into a NumPy array using: </p>
+<pre>
+np.array()
+</pre>
+<p>Ex :-</p>
+<pre>
+import numpy as np
+arr = np.array([1,2,3,4])
+print(arr)
+</pre>
+<h3>Creating Multi-dimensional arrays</h3>
+<h4><li>2D array (Matrix)</li></h4>
+<p>A list inside a list -> Rows & Columns</p>
+<p>Ex :-</p>
+<pre>
+arr = np.array([[1,2,3],
+                [4,5,6]])
+print(arr)
+</pre>
+<h4><li>3D array</li></h4>
+<p>Think of it as layers of matrices</p>
+<p>Ex :-</p>
+<pre>
+arr = np.array([
+    [[1,2],[3,4]],
+    [[5,6],[7,8]]
+])
+print(arr)
+</pre>
