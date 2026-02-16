@@ -229,7 +229,7 @@ arr = np.array([1,2,3],
                 [4,5,6])
 </pre>
 <h3><li>Shape :</li></h3>
-<p>Shows dimensions(rows, columns) of array.
+<>Shows dimensions(rows, columns) of array.
 <pre>
 print(arr.shape)
 </pre>
@@ -262,4 +262,12 @@ print(arr.dtype)
 </pre>
 <pre>
 output : int
+</pre>
+<h3><li>item size :</li></h3>
+<p>Memory (in bytes) used by one element</p>
+<pre>
+print(arr.itemsize)
+</pre>
+<pre>
+output : 8
 </pre>
