@@ -247,3 +247,11 @@ print(arr.ndim)
 output : 2
 because matrix = 2D
 </pre>
+<h3><li>size :</li></h3>
+<p>Total number of elements</p>
+<pre>
+print(arr.size)
+</pre>
+<pre>
+output : 6
+</pre>
