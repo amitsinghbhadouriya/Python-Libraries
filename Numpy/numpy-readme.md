@@ -238,3 +238,12 @@ output : (2,3)
 2 rows, 3 columns
 </pre>
 <p>-> It represents the structure of an array</p>
+<h3><li>ndim :</li></h3>
+<p>Shows number of dimensions (axes)</p>
+<pre>
+print(arr.ndim)
+</pre>
+<pre>
+output : 2
+because matrix = 2D
+</pre>
