@@ -255,3 +255,11 @@ print(arr.size)
 <pre>
 output : 6
 </pre>
+<h3><li>dtype :</li></h3>
+<p>Shows data type of elements</p>
+<pre>
+print(arr.dtype)
+</pre>
+<pre>
+output : int
+</pre>
