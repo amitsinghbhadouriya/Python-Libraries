@@ -271,3 +271,13 @@ print(arr.itemsize)
 <pre>
 output : 8
 </pre>
+<h3><li>nbytes</li></h3>
+<p>Total memory used by array</p>
+<p><u>Formula</u> = size * itemsize</p>
+<pre>
+print(arr.nbytes)
+</pre>
+<pre>
+output : 48
+6 elements * 8 bytes
+</pre>
