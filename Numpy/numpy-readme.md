@@ -219,3 +219,22 @@ arr = np.array([
 ])
 print(arr)
 </pre>
+
+<h2>Array attributes</h2>
+<p>Array attributes gives information about the array.</p>
+<p>Ex :-</p>
+<pre>
+import numpy as np
+arr = np.array([1,2,3],
+                [4,5,6])
+</pre>
+<h3><li>Shape :</li></h3>
+<p>Shows dimensions(rows, columns) of array.
+<pre>
+print(arr.shape)
+</pre>
+<pre>
+output : (2,3)
+2 rows, 3 columns
+</pre>
+<p>-> It represents the structure of an array</p>
