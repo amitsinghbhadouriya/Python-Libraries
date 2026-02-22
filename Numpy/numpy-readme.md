@@ -282,4 +282,3 @@ output : 48
 6 elements * 8 bytes
 </pre>
 
-
