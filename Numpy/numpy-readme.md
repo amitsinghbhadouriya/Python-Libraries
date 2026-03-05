@@ -282,7 +282,83 @@ output : 48
 6 elements * 8 bytes
 </pre>
 
-
-
-
-
+<h2>Array Creation Routines</h2>
+<h3><li>np.zeros()</li></h3>
+<p>Creates an array filled entirely with zeros(0).</p>
+<p>Syntax :</p>
+<pre>
+np.zeros(shape,dtype)
+</pre>
+<p>dtype -> optional</p>
+<p>Ex :</p>
+<pre>
+arr = np.zeros((2,3))
+print(arr)
+</pre>
+<p><u>default data type</u> = float</p>
+<p>or</p>
+<pre>
+arr = np.zeros((2,2), dtype = int)
+print(arr)
+</pre>
+<p>Specifying data type</p>
+<h3><li>np.ones()</li></h3>
+<p>Creates an array filled entirely with ones (1).</p>
+<p>Syntax :</p>
+<pre>
+np.ones(shape, dtype)
+</pre>
+<h3><li>np.empty</li></h3>
+<p>Creates an array without initializing values.</p>
+<p>Syntax :</p>
+<pre>
+np.empty(shape, dtype)
+</pre>
+<h3><li>np.arrange()</li></h3>
+<p>Generates a sequence of numbers.<br>Works like python range() but returns a NumPy array.</p>
+<p>Syntax:</p>
+<pre>
+np.arrange(start, stop, step)
+</pre>
+<h3><li>np.linspace()</li></h3>
+<p>Generates numbers evenly spaced between a range.</p>
+<p>Syntax :</p>
+<pre>
+np.linspace(start, stop, num)
+</pre>
+<p>num = total value needed</p>
+<h3><li>np.logspace()</li></h3>
+<p>Generates numbers evenly spaced on a logarithmic scale.</p>
+<p>Syntax :</p>
+<pre>
+np.logspace(start, stop, num)
+</pre>
+<p>Important concept :-</p>
+<ul>
+    <li>Values are generated as :<br> 10<sup>start</sup> -> 10 <sup>stop</sup></li>
+    <li>Base = 10 by default</li>
+</ul>
+<h3><li>np.eye()</li></h3>
+<p>Creates an identity matrix.</p>
+<p>Identity matrix means: </p>
+<ul>
+    <li>Diagonal elements = 1</li>
+    <li>All other elements = 0</li>
+</ul>
+<p>Ex : (3 * 3)</p>
+<pre>
+[1 0 0]
+[0 1 0]
+[0 0 1]
+</pre>
+<p>Syntax :</p>
+<pre>
+np.eye(N,M,K,dtype)
+</pre>
+<p>N -> Row <br> K -> Diagonal Position <br> M,K -> Optional</p>
+<h3><li>np.random</li></h3>
+<p>Used for random data generation, simulations, Machine learning, Testing/Sampling.</p>
+<ol>
+<h4><li>np.random.rand() :</li></h4>
+<p>Generates random numbers between 0 and 1
+</ol>
