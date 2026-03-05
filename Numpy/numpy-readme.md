@@ -361,4 +361,30 @@ np.eye(N,M,K,dtype)
 <ol>
 <h4><li>np.random.rand() :</li></h4>
 <p>Generates random numbers between 0 and 1
+<h4><li>np.random.randn() :</li></h4>
+<p>Generates numbers from -</p>
+<ul>
+<li>Mean = 0</li>
+<li>std Dev = 1</li>
+</ul>
+<p>-> Output can be negative<br>-> Used heavily in ML</p>
+<h4><li>np.random.randint() :</li></h4>
+<p>Random integers</p>
+<ul>
+<li>Range -> Start, stop</li>
+<li>count -> size</li>
+</ul>
+<p>Ex :</p>
+<pre>
+arr = np.random.randint(1,10,5)
+</pre>
+<h4><li>np.random.choice() :</li></h4>
+<p>Randomly selects from given values</p>
+<p>Ex :</p>
+<pre>
+arr = np.random.choice([10,20,30,40],5)
+</pre>
+<p>-> Useful in sampling</p>
+<h4><li>np.random.seed() :</li></h4>
+<p>Fixed randomness -> Reproducible results</p>
 </ol>
