@@ -388,3 +388,4 @@ arr = np.random.choice([10,20,30,40],5)
 <h4><li>np.random.seed() :</li></h4>
 <p>Fixed randomness -> Reproducible results</p>
 </ol>
+
